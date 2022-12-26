@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SliderView: UIViewRepresentable {
     
-    @Binding var value: Float
+    @Binding var value: Double
     var alpha: Int
     
     func makeUIView(context: Context) -> UISlider {
@@ -49,7 +49,7 @@ extension SliderView {
         }
         
         @objc func valueChanged(_ slider: UISlider) {
-            sliderView.value = slider.value
+            sliderView.value = Double(slider.value)
         }
     }
 }

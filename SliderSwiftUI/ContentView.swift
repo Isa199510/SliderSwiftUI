@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     @State private var randomNumber = Double.random(in: 1...100).rounded()
-    @State private var sliderValue: Float = 20
+    @State private var sliderValue: Double = 20
     @State var showsAlert = false
     
     var body: some View {
