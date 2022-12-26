@@ -13,7 +13,6 @@
 		4AD6ABE52958C63200FF7609 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AD6ABE42958C63200FF7609 /* Preview Assets.xcassets */; };
 		4AD6AC112958D51E00FF7609 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD6AC0F2958D51E00FF7609 /* SliderView.swift */; };
 		4AD6AC122958D51E00FF7609 /* SliderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AD6AC102958D51E00FF7609 /* SliderView.xib */; };
-		4AD6AC142958DB3300FF7609 /* SwiftUIView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD6AC132958DB3300FF7609 /* SwiftUIView1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +23,6 @@
 		4AD6ABE42958C63200FF7609 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4AD6AC0F2958D51E00FF7609 /* SliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 		4AD6AC102958D51E00FF7609 /* SliderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SliderView.xib; sourceTree = "<group>"; };
-		4AD6AC132958DB3300FF7609 /* SwiftUIView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +59,6 @@
 				4AD6ABDF2958C63100FF7609 /* ContentView.swift */,
 				4AD6ABE12958C63200FF7609 /* Assets.xcassets */,
 				4AD6AC0F2958D51E00FF7609 /* SliderView.swift */,
-				4AD6AC132958DB3300FF7609 /* SwiftUIView1.swift */,
 				4AD6AC102958D51E00FF7609 /* SliderView.xib */,
 				4AD6ABE32958C63200FF7609 /* Preview Content */,
 			);
@@ -147,7 +144,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AD6AC142958DB3300FF7609 /* SwiftUIView1.swift in Sources */,
 				4AD6AC112958D51E00FF7609 /* SliderView.swift in Sources */,
 				4AD6ABE02958C63100FF7609 /* ContentView.swift in Sources */,
 				4AD6ABDE2958C63100FF7609 /* SliderSwiftUIApp.swift in Sources */,
